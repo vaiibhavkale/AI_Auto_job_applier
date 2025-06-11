@@ -138,9 +138,9 @@ state = "STATE"
 zipcode = "12345"
 country = "Will Let You Know When Established"
 
-first_name = "Sai"                 # Your first name in quotes Eg: "First", "Sai"
-middle_name = "Vignesh"            # Your name in quotes Eg: "Middle", "Vignesh", ""
-last_name = "Golla"                # Your last name in quotes Eg: "Last", "Golla"
+first_name = "vaibhav"                 # Your first name in quotes Eg: "First", "Vaibhav"
+middle_name = "Prasad"            # Your name in quotes Eg: "Middle", "Prasad", ""
+last_name = "Kale"                # Your last name in quotes Eg: "Last", "Kale"
 
 # Your LinkedIn headline in quotes Eg: "Software Engineer @ Google, Masters in Computer Science", "Recent Grad Student @ MIT, Computer Science"
 headline = "Headline"

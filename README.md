@@ -177,7 +177,7 @@ Once your code is tested, your changes will be merged to the `main` branch in ne
     '''
     from pyautogui import alert
 
-  ##> ------ Vaibhav Prasad Kale : saivigneshgolla@outlook.com - Bug fix ------
+  ##> ------ Vaibhav Prasad Kale : vaiibhavkale@gmail.com - Bug fix ------
     return alert(message, title)
   ##<
   ```
@@ -260,15 +260,13 @@ As you continue your job search, I hope this tool has provided you with valuable
 
 To continue improving and maintaining this tool, I rely on the support of users like you. If you believe in its mission and want to contribute, you can support me by sharing about this project with your peers and network.
 
-If you need a post to communicate about it: https://www.linkedin.com/posts/saivigneshgolla_jobsearch-jobapplication-careerdevelopment-activity-7166416367628341249-WE_8
-
 By doing so, you can empower others in their job hunt, just as you've been empowered.. Every contribution, big or small, makes a significant impact!
 
 As an independent developer, I pour my heart and soul into creating tools like this, driven by the genuine desire to make a positive impact. Your support, whether through donations or simply spreading the word, means the world to me and helps keep this project alive and thriving.
 
 You can connect and reach me out at:
 - LinkedIn  :  https://www.linkedin.com/in/vaiibhavkale/
-- Email     :  saivigneshgolla@outlook.com
+- Email     :  vaiibhavkale@gmail.com
 
 <br>
 
@@ -369,7 +367,7 @@ Please consider the following:
 
 ## ⚖️ License
 
-Copyright (C) 2024 Vaibhav Prasad Kale  <saivigneshgolla@outlook.com>
+Copyright (C) 2024 Vaibhav Prasad Kale  <vaiibhavkale@gmail.com>
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -388,7 +386,7 @@ See [AGPLv3 LICENSE](LICENSE) for more info.
 
 ## 🐧 Socials
 - **LinkedIn** : https://www.linkedin.com/in/vaiibhavkale/
-- **Email**    : saivigneshgolla@outlook.com
+- **Email**    : vaiibhavkale@gmail.com
 - **X/Twitter**: https://x.com/gods_scion
 - **Discord**  : godsscion
 
