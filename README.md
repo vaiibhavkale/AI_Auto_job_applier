@@ -27,7 +27,7 @@ This is an web scraping bot that automates the process of job applications on Li
   pip install undetected-chromedriver pyautogui setuptools openai flask-cors flask
   ```
 3. Download and install latest version of [Google Chrome](https://www.google.com/chrome) in it's default location, visit https://www.google.com/chrome to download it's installer.
-4. Clone the current git repo or download it as a zip file, url to the latest update https://github.com/GodsScion/Auto_job_applier_linkedIn.
+4. Clone the current git repo or download it as a zip file, url to the latest update https://github.com/vaiibhavkale/AI_Auto_job_applier.
 5. (Not needed if you set `stealth_mode = True` in `config/settings.py` ) Download and install the appropriate [Chrome Driver](https://googlechromelabs.github.io/chrome-for-testing/) for Google Chrome and paste it in the location Chrome was installed, visit https://googlechromelabs.github.io/chrome-for-testing/ to download.
   <br> <br>
   ***OR*** 
@@ -224,8 +224,6 @@ Once your code is tested, your changes will be merged to the `main` branch in ne
 - UI to manage easy applied jobs and external links.
 
 
-
-
 #### Stealth features 🥸🤫:  
 - Undetected Chromedriver to bypass anti-bot scripts (Browser, Undetected ChromeDriver versions must be compatible) (Beta) {If problem occurs uninstall and install undetected chromedriver, update browser, selenium and chromedriver}
 - Click intervals can be randomized and increased to avoid suspicions
@@ -246,8 +244,6 @@ Once your code is tested, your changes will be merged to the `main` branch in ne
 [back to index](#-content)
 
 <br>
-
-
 
 
 ## ✉️ My Heartfelt letter to you ❤️...
@@ -282,72 +278,9 @@ With heartfelt appreciation, <br>
 
 <br>
 
-## 🗓️ Major Updates History:
-### Nov 28, 2024
-- Patched to work for latest changes in Linkedin.
-- Users can now select to follow or not follow companies when submitting application.
-- Frameworks for future AI Developments have been added.
-- AI can now be used to extract skills from job description. 
-
-### Oct 16, 2024
-- Framework for OpenAI API and Local LLMs
-- Framework for RAG
-
-### Sep 09, 2024
-- Smarter Auto-fill for salaries and notice periods
-- Robust Search location filter, will work in window mode (No need for full screen)
-- Better logic for Select and Radio type questions
-- Proper functioning of Decline to answer questions in Equal Employment opportunity questions
-- Checkbox questions select fail bug fixed
-- Annotations are clearer in instructions for setup
-
-### Sep 07, 2024
-- Annotations for developers
-- Robust input validations
-- Restructured config file
-- Fixed pagination bug
-
-### Aug 21, 2024
-- Performance improvements (skip clicking on applied jobs and blacklisted companies)
-- Stop when easy apply application limit is reached
-- Added ability to discard from pause at submission dialogue box
-- Added support for address input
-- Bug fixed radio questions, added support for physical disability questions
-- Added framework for future config file updates
-
-### June 19, 2024
-- Major Bug fixes (Text Area type questions)
-- Made uploading default resume as not required
-
-### May 15, 2024
-- Added functionality for textarea type questions `summary`, `cover_letter`(Summary, Cover letter); checkbox type questions (acknowledgements)
-- Added feature to skip irrelevant jobs based on `bad_words` 
-- Improved performance for answering questions
-- Logic change for masters students skipping
-- Change variable names `blacklist_exceptions` -> `about_company_good_words` and `blacklist_words` -> `about_company_bad_words`
-- Added session summary for logs
-- Added option to turn off "Pause before Submit" until next run
-
-### May 05, 2024
-- For questions similar to "What is your current location?", City posted in Job description will be posted as the answer if `current_city` is left empty in the configuration
-- Added option to over write previously saved answers for a question `overwrite_previous_answers`
-- Tool will now save previous answer of a question
-- Tool will now collect all available options for a Radio type or Select type question
-- Major update in answering logic for Easy Apply Application questions
-- Added Safe mode option for quick stable launches `safe_mode`
-
-### May 04, 2024
-- Added option to fill in "City, state, or zip code" search box `search_location`
-- Bug fixes in answering City or location question
-
-
-[back to index](#-content)
-
-<br>
-
 ## 📜 Disclaimer
 
-**This program is for educational purposes only. By downloading, using, copying, replicating, or interacting with this program or its code, you acknowledge and agree to abide by all the Terms, Conditions, Policies, and Licenses mentioned, which are subject to modification without prior notice. The responsibility of staying informed of any changes or updates bears upon yourself. For the latest Terms & Conditions, Licenses, or Policies, please refer to [Auto Job Applier](https://github.com/GodsScion/Auto_job_applier_linkedIn). Additionally, kindly adhere to and comply with LinkedIn's terms of service and policies pertaining to web scraping. Usage is at your own risk. The creators and contributors of this program emphasize that they bear no responsibility or liability for any misuse, damages, or legal consequences resulting from its usage.**
+**This program is for educational purposes only. By downloading, using, copying, replicating, or interacting with this program or its code, you acknowledge and agree to abide by all the Terms, Conditions, Policies, and Licenses mentioned, which are subject to modification without prior notice. The responsibility of staying informed of any changes or updates bears upon yourself. For the latest Terms & Conditions, Licenses, or Policies, please refer to [Auto Job Applier](https://github.com/vaiibhavkale/AI_Auto_job_applier). Additionally, kindly adhere to and comply with LinkedIn's terms of service and policies pertaining to web scraping. Usage is at your own risk. The creators and contributors of this program emphasize that they bear no responsibility or liability for any misuse, damages, or legal consequences resulting from its usage.**
 
 
 ## 🏛️ Terms and Conditions
@@ -387,21 +320,8 @@ See [AGPLv3 LICENSE](LICENSE) for more info.
 ## 🐧 Socials
 - **LinkedIn** : https://www.linkedin.com/in/vaiibhavkale/
 - **Email**    : vaiibhavkale@gmail.com
-- **X/Twitter**: https://x.com/gods_scion
-- **Discord**  : godsscion
-
-
-## 🙌 Community Support and Discussions
-- **Discord Server** : https://discord.gg/fFp7uUzWCY
-alternate link: https://discord.gg/ykfDjRFB
-- **GitHub**
-    - [All Discussions](https://github.com/GodsScion/Auto_job_applier_linkedIn/discussions)
-    - [Announcements](https://github.com/GodsScion/Auto_job_applier_linkedIn/discussions/categories/announcements)
-    - [General](https://github.com/GodsScion/Auto_job_applier_linkedIn/discussions/categories/general)
-    - [Feature requests or Ideas](https://github.com/GodsScion/Auto_job_applier_linkedIn/discussions/categories/feature-requests-or-ideas)
-    - [Polls](https://github.com/GodsScion/Auto_job_applier_linkedIn/discussions/categories/polls)
-    - [Community Flex](https://github.com/GodsScion/Auto_job_applier_linkedIn/discussions/categories/community-flex)
-    - [Support Q&A](https://github.com/GodsScion/Auto_job_applier_linkedIn/discussions/categories/support-q-a)
+- **X/Twitter**: https://x.com/vaiibhavkale
+- **Discord**  : vaiibhavkale
 
 
 #### ℹ️ Version: 24.12.29.12.30 Stable Preview
